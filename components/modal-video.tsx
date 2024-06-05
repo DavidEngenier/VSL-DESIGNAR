@@ -47,7 +47,7 @@ export default function ModalVideo({
             onPause={handlePause} // Maneja el evento cuando la reproducciÃ³n del video se pausa
           >
             {/* Video a reproducir en el modal */}
-            <source src={video} type="video/mp4" />
+            <source src={video} type="video/NOSOTROS SOMOS DESIGNAR" />
             Your browser does not support the video tag.
           </video>
         </div>

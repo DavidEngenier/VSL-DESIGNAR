@@ -1,5 +1,5 @@
 import React from "react";
-import TestimonialImage01 from "@/public/images/Mesa de trabajo 1.png";
+import TestimonialImage01 from "@/public/images/testimonial-01.jpg";
 import Image from "next/image";
 
 export default function PageIllustration() {
