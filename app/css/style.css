@@ -20,3 +20,24 @@
 [x-cloak=""] {
     display: none;
 }
+
+
+.facebook-comments-page {
+    display: flex;
+    flex-direction: column;
+ position: relative;
+ left: 465px;
+    padding: 30px;
+  }
+  
+  .comments-container {
+    max-width: 600px; /* Ajusta el ancho máximo según tu diseño */
+    width: 100%;
+    overflow-y: auto; /* Habilita el desplazamiento vertical si los comentarios son más largos que el contenedor */
+    padding-right: 10px; /* Añade un espacio para compensar la barra de desplazamiento vertical */
+  }
+  
+  .facebook-comments {
+    margin-bottom: 20px; /* Espacio entre los comentarios */
+  }
+  

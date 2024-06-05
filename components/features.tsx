@@ -23,7 +23,8 @@ export default function Features() {
             data-aos-id-blocks
           >
             {/* 1st item */}
-            <div
+           {/* 1st item */}
+           <div
               className="relative flex items-center mb-8"
               data-aos="fade-up"
               data-aos-delay="400"
@@ -59,7 +60,7 @@ export default function Features() {
               <div>
                 <h4 className="h4 mb-2"></h4>
                 <p className="text-2xl">
-                  Buscas un proveedor de confianza que cuente con fÃ¡brica
+                  Buscas un proveedor de confianza que cuente con fabrica
                 </p>
               </div>
             </div>
@@ -108,41 +109,41 @@ export default function Features() {
 
             {/* 3rd item */}
             <div
-              className="relative flex items-center mb-8"
-              data-aos="fade-up"
-              data-aos-delay="400"
-              data-aos-anchor="[data-aos-id-blocks]"
+            className="relative flex items-center mb-8"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-anchor="[data-aos-id-blocks]"
+          >
+            <svg
+              className="w-16 h-16 mr-4 animate-bounce"
+              viewBox="0 0 64 64"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                className="w-16 h-16 mr-4 animate-bounce"
-                viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
+              <rect
+                className="fill-current text-green-600"
+                width="64"
+                height="64"
+                rx="32"
+              />
+              <g
+                strokeLinecap="square"
+                strokeWidth="2"
+                fill="none"
+                fillRule="evenodd"
               >
-                <rect
-                  className="fill-current text-green-600"
-                  width="64"
-                  height="64"
-                  rx="32"
+                <path
+                  className="stroke-current text-gray-100"
+                  d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6"
                 />
-                <g
-                  strokeLinecap="square"
-                  strokeWidth="2"
-                  fill="none"
-                  fillRule="evenodd"
-                >
-                  <path
-                    className="stroke-current text-gray-100"
-                    d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6"
-                  />
-                  <path
-                    className="stroke-current text-gray-100"
-                    d="M22 30h4v12h-4z"
-                  />
-                </g>
-              </svg>
-              <div>
-                <h4 className="h4 mb-2"></h4>
-                <p className="text-2xl">Buscas destacarte de la competencia</p>
+                <path
+                  className="stroke-current text-gray-100"
+                  d="M22 30h4v12h-4z"
+                />
+              </g>
+            </svg>
+            <div>
+              <h4 className="h4 mb-2"></h4>
+              <p className="text-2xl">Buscas destacarte de la competencia</p>
               </div>
             </div>
 
@@ -183,51 +184,48 @@ export default function Features() {
               <div>
                 <h4 className="h4 mb-2"></h4>
                 <p className="text-2xl">
-                  Deseas diseÃ±os personalizados y Ãºnicos en todo MÃ©xico
+                  Deseas disenos personalizados y unicos en todo mexico
                 </p>
               </div>
             </div>
 
             {/* 5th item */}
             <div
-              className="relative flex items-center mb-8"
-              data-aos="fade-up"
-              data-aos-delay="400"
-              data-aos-anchor="[data-aos-id-blocks]"
+            className="relative flex items-center mb-8"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-anchor="[data-aos-id-blocks]"
+          >
+            <svg
+              className="w-16 h-16 mr-4 animate-bounce"
+              viewBox="0 0 64 64"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                className="w-16 h-16 mr-4 animate-bounce"
-                viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
+              <rect
+                className="fill-current text-green-600"
+                width="64"
+                height="64"
+                rx="32"
+              />
+              <g
+                strokeLinecap="square"
+                strokeWidth="2"
+                fill="none"
+                fillRule="evenodd"
               >
-                <rect
-                  className="fill-current text-green-600"
-                  width="64"
-                  height="64"
-                  rx="32"
+                <path
+                  className="stroke-current text-gray-100"
+                  d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6"
                 />
-                <g
-                  strokeLinecap="square"
-                  strokeWidth="2"
-                  fill="none"
-                  fillRule="evenodd"
-                >
-                  <path
-                    className="stroke-current text-gray-100"
-                    d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6"
-                  />
-                  <path
-                    className="stroke-current text-gray-100"
-                    d="M22 30h4v12h-4z"
-                  />
-                </g>
-              </svg>
-              <div>
-                <h4 className="h4 mb-2"></h4>
-                <p className="text-2xl">
-                  Cuentas con ventas recurrentes arriba de $1000 dÃ³lares
-                  mensuales
-                </p>
+                <path
+                  className="stroke-current text-gray-100"
+                  d="M22 30h4v12h-4z"
+                />
+              </g>
+            </svg>
+            <div>
+              <h4 className="h4 mb-2"></h4>
+              <p className="text-xl">Cuentas con ventas recurrentes arriba de $1000 dólares mensuales</p>
               </div>
             </div>
           </div>

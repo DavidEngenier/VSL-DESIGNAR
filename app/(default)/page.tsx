@@ -6,7 +6,9 @@ import PageIllustration from "@/components/page-illustration";
 import Extras from "@/components/Extras";
 import Cosas from "@/components/Cosas";
 import SvgComponent from "@/components/svg";
-import Calendario from "@/components/calendario";
+
+import FacebookCommentsPage from "@/components/comentarios";
+
 
 const Home = () => {
   return (
@@ -14,21 +16,31 @@ const Home = () => {
       <SvgComponent />
       <Hero />
       <Newsletter />
-      <div className="flex flex-coljustify-center">
-        <Features />
-        <Features2 />
-      </div>
+      <div className="flex flex-col sm:flex-row justify-center">
+  <div className="">
+    {/* Contenido de la primera columna */}
+    <Features />
+  </div>
+  <div className="">
+    {/* Contenido de la segunda columna */}
+    <Features2 />
+  </div>
+</div>
 
       <Cosas />
       <Extras />
       <Newsletter />
-      <span className="before:block animate-custom-pulse before:absolute before:-inset-5  flex justify-center relative inline-block uppercase text-6xl mt-5">
-        <span className="relative text-green-400">
+      <span className="before:block animate-pulse before:absolute before:-inset-5  flex justify-center relative inline-block uppercase text-7xl mt-5">
+        <span className="relative text-white">
           Solo por hoy envios gratis
         </span>
       </span>
 
-      <Calendario />
+      <FacebookCommentsPage/>
+
+      <span className="text-white">extra</span>
+      <span className="text-white">logos</span>
+     
     </>
   );
 };

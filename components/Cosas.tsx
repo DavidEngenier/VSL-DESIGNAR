@@ -4,37 +4,37 @@ export default function Cosas() {
       {" "}
       <div className="mw-full text-center pb-12 md:pb-16">
         <h1 className="h1 mb-4" data-aos="fade-up">
-          Â¿Quienes somos?
+          ¿Quienes somos?
         </h1>
         <p
           className="text-3xl text-gray-200 mb-8 "
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          Somos una fÃ¡brica de souvenirs que busca distribuidores de
+          Somos una fabrica de souvenirs que busca distribuidores de
           <span className="ml-2 mr-2 inline-block animate-custom-more text-blue-400 ">
             confianza que deseen pertenecer a nuestra red
           </span>
-          posicionada de souvenirs en MÃ©xico
+          posicionada de souvenirs en Mexico
         </p>
       </div>
       {/** */}
       <div className="mw-full text-center pb-12 md:pb-16">
         <h1 className="h1 mb-4" data-aos="fade-up">
-          Â¿Como vamos a ayudarte?
+          ¿Como vamos a ayudarte?
         </h1>
         <p
           className="text-3xl text-gray-200 mb-8"
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          Queremos ofrecerte nuestro servicio exclusivo B2B de fabricaciÃ³n de
+          Queremos ofrecerte nuestro servicio exclusivo B2B de fabricacion de
           souvenirs{" "}
           <span className="inline-block animate-custom-more text-blue-400">
             {" "}
-            exclusivos por tienda y paradero turÃ­stico
+            exclusivos por tienda y paradero turistico
           </span>{" "}
-          en el cual encontrarÃ¡s
+          en el cual encontraras
         </p>
       </div>
     </section>
