@@ -29,7 +29,7 @@ export default function Hero() {
           {/* Componente ModalVideo */}
           <div className="">
             <ModalVideo
-              video="/videos/video.mp4" // Ruta del archivo de video
+              video="/videos/designar.mp4" // Ruta del archivo de video
               videoWidth={1080} // Ancho del video
               videoHeight={1080} // Altura del video
             />
