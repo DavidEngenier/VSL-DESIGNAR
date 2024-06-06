@@ -1,5 +1,5 @@
-import PageIllustration from '@/components/page-illustration'
 
+import SvgComponent from "@/components/svg";
 export default function AuthLayout({
   children,
 }: {
@@ -8,7 +8,7 @@ export default function AuthLayout({
   return (
     <main className="grow">
 
-      <PageIllustration />
+      <SvgComponent/>
 
       {children}
 

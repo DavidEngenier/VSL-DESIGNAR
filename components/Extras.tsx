@@ -17,7 +17,7 @@ export default function Extras() {
                 ?
               </h2>
               <p className="uppercase sm:text-3xl md:1xl mt-5 text-gray-200 ">
-                encontonces tambien tienes que saber esto
+                entonces tambien tienes que saber esto
               </p>
             </div>
   

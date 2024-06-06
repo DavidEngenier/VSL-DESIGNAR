@@ -3,7 +3,7 @@ import "./css/style.css";
 import { Inter, Architects_Daughter } from "next/font/google";
 
 import Header from "@/components/ui/header";
-import PageIllustration from "@/components/page-illustration";
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -41,3 +41,4 @@ export default function RootLayout({
     </html>
   );
 }
+

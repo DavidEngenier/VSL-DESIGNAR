@@ -2,7 +2,7 @@ import Hero from "@/components/hero";
 import Features from "@/components/features";
 import Newsletter from "@/components/newsletter";
 import Features2 from "@/components/features2";
-import PageIllustration from "@/components/page-illustration";
+
 import Extras from "@/components/Extras";
 import Cosas from "@/components/Cosas";
 import SvgComponent from "@/components/svg";
@@ -38,8 +38,7 @@ const Home = () => {
 
       <FacebookCommentsPage/>
 
-      <span className="text-white">extra</span>
-      <span className="text-white">logos</span>
+     
      
     </>
   );
