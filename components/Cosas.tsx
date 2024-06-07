@@ -11,11 +11,12 @@ export default function Cosas() {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          Somos una fabrica de souvenirs que busca distribuidores de
+          Somos una fábrica de souvenirs que busca distribuidores de
           <span className="ml-2 mr-2 inline-block animate-custom-more text-blue-400 ">
-            confianza que deseen pertenecer a nuestra red
+            con anza que deseen pertenecer
+a nuestra red
           </span>
-          posicionada de souvenirs en Mexico
+          posicionada de souvenirs en México
         </p>
       </div>
       {/** */}
@@ -28,13 +29,13 @@ export default function Cosas() {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          Queremos ofrecerte nuestro servicio exclusivo B2B de fabricacion de
-          souvenirs{" "}
+          Queremos ofrecerte nuestro servicio exclusivo B2B de fabricación de souvenirs
           <span className="inline-block animate-custom-more text-blue-400">
             {" "}
-            exclusivos por tienda y paradero turistico
+            exclusivos por
+tienda y paradero turístico
           </span>{" "}
-          en el cual encontraras
+          
         </p>
       </div>
     </section>

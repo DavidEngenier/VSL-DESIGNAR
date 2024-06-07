@@ -184,7 +184,7 @@ export default function Features() {
               <div>
                 <h4 className="h4 mb-2"></h4>
                 <p className="text-2xl">
-                  Deseas disenos personalizados y unicos en todo mexico
+                  Deseas diseños personalizados y únicos en todo México
                 </p>
               </div>
             </div>

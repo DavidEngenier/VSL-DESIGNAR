@@ -41,7 +41,7 @@ const Home = () => {
             <span className="before:block  before:-inset-1 before:-skew-y-3 before:bg-blue-800 relative inline-block uppercase mr-5 mt-5 ml-8  sm:r-5 mt-2 lg: mt-5 ml-5">
               <span className="relative text-white"> si estas dispuesto a invertir.</span>
             </span>
-          </blockquote>
+          </blockquote> 
      
       <Calendario/>
 
