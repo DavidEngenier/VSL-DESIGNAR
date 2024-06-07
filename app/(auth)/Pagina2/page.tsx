@@ -35,9 +35,6 @@ const Home = () => {
 
 
       <Features/>
-     
-      <Calendario/>
-
 
       <blockquote className=" sm:text-1xl md:text-2xl lg:text-3xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12">
             Agenda solo 
@@ -45,6 +42,11 @@ const Home = () => {
               <span className="relative text-white"> si estas dispuesto a invertir.</span>
             </span>
           </blockquote>
+     
+      <Calendario/>
+
+
+      
 
         
      
