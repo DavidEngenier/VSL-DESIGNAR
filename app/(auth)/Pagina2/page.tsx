@@ -20,7 +20,7 @@ const Home = () => {
               
             </span>
             <div className="flex">
-      <div className=" sm:mx-auto ml-[150px] lg:mx-auto xl:mx-auto 2xl:mx-auto " >
+      <div className=" sm:mx-auto ml-[100px] lg:mx-auto xl:mx-auto 2xl:mx-auto " >
       <div style={{ transform: "scale(1.5)"}}>
         <Camion />
         </div>
