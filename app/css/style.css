@@ -22,9 +22,7 @@
 }
 
 
-.facebook-comments-page {
-  max-width: 1000px; /* Ajusta según sea necesario */
-  margin: 0 auto;
+.facebook-images-page {
   padding: 20px;
 }
 
@@ -34,16 +32,23 @@
   justify-content: space-between;
 }
 
-.comments-column {
-  flex: 0 0 calc(50% - 10px); /* Dos columnas con espacio entre ellas */
-  margin-bottom: 20px; /* Espacio entre cada URL */
+.images-column {
+  flex-basis: 48%;
+  margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
-  .comments-column {
-    flex: 0 0 100%; /* Una sola columna en dispositivos móviles */
+@media (max-width: 600px) {
+  .images-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .images-column {
+    flex-basis: 100%;
+    margin-bottom: 20px;
   }
 }
+
 
 
 
