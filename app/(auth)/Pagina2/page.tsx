@@ -38,7 +38,7 @@ const Home = () => {
           
 
 
-      <Features/>
+   
 
       <blockquote className=" sm:text-1xl md:text-2xl lg:text-3xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12">
             Agenda solo 
