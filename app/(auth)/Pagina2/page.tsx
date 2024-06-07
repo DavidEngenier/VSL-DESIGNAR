@@ -24,7 +24,7 @@ const Home = () => {
       <div style={{ transform: "scale(1.5)"}}>
         <Camion />
         </div>
-        <div className="flex sm:flex-row flex-col justify-center mt-[80px] ml-[50px]"  style={{ transform: "scale(2)"}}>
+        <div className="flex sm:flex-row flex-col justify-center mt-[70px] ml-[50px] sm:mx-auto"  style={{ transform: "scale(2)"}}>
        
         <MySvgfe/> <MySvgfeds/>
         
