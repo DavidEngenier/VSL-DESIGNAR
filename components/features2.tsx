@@ -5,7 +5,7 @@ export default function Features2() {
           <div className="py-12 md:py-20">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20 ">
-              <h2 className="text-6xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12">
+              <h2 className="text-xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12">
                 nuestro servicio
                 <span
                   className="before:block before:absolute before:-inset-1.5 before:-skew-x-3 before:bg-red-500 relative inline-block uppercase ml-4 mr-4"

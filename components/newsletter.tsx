@@ -3,7 +3,7 @@ import Link from "next/link";
 const Newsletter: React.FC = () => {
   return (
     <section className="flex justify-center items-center ">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-8 pb-2">
         {/* Caja de llamada a la acción (CTA) */}
         <div>
           {/* Ilustración de fondo */}

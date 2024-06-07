@@ -30,7 +30,9 @@ const Home = () => {
       <Cosas />
       <Extras />
       <Newsletter />
-      <span className="before:block animate-pulse before:absolute before:-inset-5  flex justify-center relative inline-block uppercase text-7xl mt-5">
+
+
+      <span className="before:block animate-pulse before:absolute before:-inset-5  flex justify-center relative inline-block uppercase sm:text-7xl  text-xl mt-5">
         <span className="relative text-white">
           Resultados de nuestros clientes
         </span>
