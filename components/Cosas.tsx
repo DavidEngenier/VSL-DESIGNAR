@@ -30,7 +30,7 @@ Los productos son personalizados para cada uno de nuestros clientes por lo que n
           data-aos-delay="200"
         >
           Queremos ofrecerte nuestro servicio exclusivo B2B de fabricación de souvenirs 
-          <span className="inline-block animate-custom-more text-blue-400">
+          <span className="inline-block animate-custom-more text-blue-400 lg:ml-3 2xl:ml-3">
             {" "}
             exclusivos por tienda y paradero turísticos.
           </span>{" "}
