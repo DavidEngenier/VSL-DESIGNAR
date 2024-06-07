@@ -13,10 +13,10 @@ export default function Cosas() {
         >
           Somos una fábrica de souvenirs que busca distribuidores de
           <span className="ml-2 mr-2 inline-block animate-custom-more text-blue-400 ">
-            con anza que deseen pertenecer
-a nuestra red
+            confianza que deseen pertenecer a nuestra red
           </span>
-          posicionada de souvenirs en México
+          posicionada de souvenirs en México.
+Los productos son personalizados para cada uno de nuestros clientes por lo que no se encontrará otro diseño en todo el país.
         </p>
       </div>
       {/** */}
@@ -29,13 +29,12 @@ a nuestra red
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          Queremos ofrecerte nuestro servicio exclusivo B2B de fabricación de souvenirs
+          Queremos ofrecerte nuestro servicio exclusivo B2B de fabricación de souvenirs 
           <span className="inline-block animate-custom-more text-blue-400">
             {" "}
-            exclusivos por
-tienda y paradero turístico
+            exclusivos por tienda y paradero turísticos.
           </span>{" "}
-          
+          Manteniendo tus diseños únicos en todo México y exclusivos para tu negocio.
         </p>
       </div>
     </section>
