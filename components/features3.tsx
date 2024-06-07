@@ -25,7 +25,7 @@ export default function Features() {
             {/* 1st item */}
            {/* 1st item */}
            <div
-              className="relative flex items-center mb-8"
+              className="relative flex items-center mb-8 flex-col sm:flex-row  "
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-anchor="[data-aos-id-blocks]"
@@ -67,7 +67,7 @@ export default function Features() {
             </div>
 
             <div
-              className="relative flex items-center mb-8"
+              className="relative flex items-center mb-8 flex-col sm:flex-row"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-anchor="[data-aos-id-blocks]"
@@ -113,7 +113,7 @@ export default function Features() {
 
 
             <div
-              className="relative flex items-center mb-8"
+              className="relative flex items-center mb-8 flex-col sm:flex-row"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-anchor="[data-aos-id-blocks]"
@@ -155,7 +155,7 @@ export default function Features() {
             </div>
 
             <div
-              className="relative flex items-center mb-8"
+              className="relative flex items-center mb-8 flex-col sm:flex-row"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-anchor="[data-aos-id-blocks]"

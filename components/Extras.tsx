@@ -5,7 +5,7 @@ export default function Extras() {
           <div className="py-12 md:py-20">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20 ">
-              <h2 className="text-6xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12">
+              <h2 className="text-xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12">
                 ¿BUSCAS
                 <span
                   className="before:block before:absolute before:-inset-1.5 before:-skew-y-3 before:bg-blue-500 relative inline-block uppercase ml-5 "
@@ -28,7 +28,7 @@ export default function Extras() {
             >
               {/* 1st item */}
               <div
-                className="relative flex items-center mb-8 "
+                className="relative flex flex-col sm:flex-row items-center mb-8 "
                 data-aos="fade-up"
                 data-aos-delay="400"
                 data-aos-anchor="[data-aos-id-blocks]"
@@ -64,7 +64,7 @@ export default function Extras() {
   
               {/* 2nd item */}
               <div
-                className="relative flex items-center mb-8"
+                className="relative flex flex-col sm:flex-row items-center mb-8 "
                 data-aos="fade-up"
                 data-aos-delay="400"
                 data-aos-anchor="[data-aos-id-blocks]"
@@ -102,7 +102,7 @@ export default function Extras() {
 
               {/* 5th item */}
               <div
-                className="relative flex items-center mb-8"
+                className="relative flex items-center mb-8 flex-col sm:flex-row"
                 data-aos="fade-up"
                 data-aos-delay="400"
                 data-aos-anchor="[data-aos-id-blocks]"
@@ -137,7 +137,7 @@ export default function Extras() {
   
               {/* 5th item */}
               <div
-                className="relative flex items-center mb-8"
+                className="relative flex items-center mb-8 flex-col sm:flex-row"
                 data-aos="fade-up"
                 data-aos-delay="400"
                 data-aos-anchor="[data-aos-id-blocks]"
@@ -179,7 +179,7 @@ export default function Extras() {
 
 
               <div
-                className="relative flex items-center mb-8"
+                className="relative flex items-center mb-8 flex-col sm:flex-row"
                 data-aos="fade-up"
                 data-aos-delay="400"
                 data-aos-anchor="[data-aos-id-blocks]"

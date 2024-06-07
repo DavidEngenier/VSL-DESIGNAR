@@ -20,10 +20,14 @@ const Home = () => {
               
             </span>
             <div className="flex">
-      <div className=" sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto">
+      <div className=" sm:mx-auto ml-[150px] lg:mx-auto xl:mx-auto 2xl:mx-auto " >
+      <div style={{ transform: "scale(1.5)"}}>
         <Camion />
-        <div className="flex sm:flex-row justify-center">
+        </div>
+        <div className="flex sm:flex-row flex-col justify-center mt-[80px] ml-[50px]"  style={{ transform: "scale(2)"}}>
+       
         <MySvgfe/> <MySvgfeds/>
+        
         </div>
       </div>
     </div>
