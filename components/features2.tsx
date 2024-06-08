@@ -56,7 +56,7 @@ export default function Features2() {
               </svg>
               <div>
                 <h4 className="h4 mb-2"></h4>
-                <p className="text-xl">
+                <p className="text-2xl">
                 Estás cómodo con lo que vendes (menos de $1000 dólares mensuales)
                 </p>
               </div>
@@ -95,7 +95,7 @@ export default function Features2() {
               </svg>
               <div>
                 <h4 className="h4 mb-2"></h4>
-                <p className="text-xl">
+                <p className="text-2xl">
                 No te importa destacarte de la competencia
                 </p>
               </div>
@@ -134,10 +134,10 @@ export default function Features2() {
               </svg>
               <div>
                 <h4 className="h4 mb-2"></h4>
-                <p className="text-xl">
+                <p className="text-2xl">
                 No cuentas con un negocio de venta al público
                 </p>
-              </div>
+              </div
             </div>
   
               {/* 3rd item */}
@@ -173,7 +173,7 @@ export default function Features2() {
               </svg>
               <div>
                 <h4 className="h4 mb-2"></h4>
-                <p className="text-xl">
+                <p className="text-2xl">
                 Te importa mas el precio sobre la calidad que entregas a tus clientes
                 </p>
               </div>
