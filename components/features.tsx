@@ -225,7 +225,7 @@ export default function Features() {
             </svg>
             <div>
               <h4 className="h4 mb-2"></h4>
-              <p className="text-xl">Cuentas con ventas recurrentes arriba de $1000 dólares mensuales</p>
+              <p className="text-2xl">Cuentas con ventas recurrentes arriba de $1000 dólares mensuales</p>
               </div>
             </div>
           </div>

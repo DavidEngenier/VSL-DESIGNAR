@@ -58,7 +58,7 @@ export default function Extras() {
                 </svg>
                 <h4 className="h4 mb-2"></h4>
                 <p className="text-2xl  text-center">
-                  Disenos exclusivos en todo Mexico
+                  Diseños exclusivos en todo Mexico
                 </p>
               </div>
   
