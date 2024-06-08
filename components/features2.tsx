@@ -137,7 +137,7 @@ export default function Features2() {
                 <p className="text-2xl">
                 No cuentas con un negocio de venta al público
                 </p>
-              </div
+              </div>
             </div>
   
               {/* 3rd item */}
