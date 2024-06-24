@@ -5,7 +5,10 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
+
 import Footer from "@/components/ui/footer";
+import Script from "next/script";
 
 export default function DefaultLayout({
   children,
@@ -26,6 +29,7 @@ export default function DefaultLayout({
       <main className="grow">{children}</main>
 
       <Footer />
+
     </>
   );
 }

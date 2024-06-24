@@ -1,0 +1,30 @@
+.dropdown {
+    background-color: #444; /* Color de fondo del dropdown */
+    border-radius: 5px; /* Bordes redondeados */
+    display: flex; /* Distribución flexible */
+    flex-direction: column; /* Items en columna */
+    list-style: none; /* Eliminar viñetas de la lista */
+    margin: 0; /* Eliminar márgenes */
+    padding: 1rem; /* Espaciado interno */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 100%; /* Alineación debajo del item del navbar */
+    left: 0; /* Alineación a la izquierda */
+  }
+  
+  .dropdownItem {
+    margin-bottom: 0.5rem; /* Espaciado entre items del dropdown */
+  }
+  
+  .dropdownItem:last-child {
+    margin-bottom: 0; /* Eliminar espaciado en el último item */
+  }
+  
+  .dropdownItem a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Eliminar subrayado del texto */
+  }
+  
+  .dropdownItem a:hover {
+    color: #ddd; /* Cambiar color del texto al pasar el mouse */
+  }
+  

@@ -8,11 +8,13 @@ import Cosas from "@/components/Cosas";
 import SvgComponent from "@/components/svg";
 
 import FacebookCommentsPage from "@/components/comentarios";
+import Navbar from "@/components/navbar";
 
 
 const Home = () => {
   return (
     <>
+   
       <SvgComponent />
       <Hero />
       <Newsletter />
@@ -40,8 +42,7 @@ const Home = () => {
 
       <FacebookCommentsPage/>
 
-     
-     
+
     </>
   );
 };
