@@ -1,0 +1,111 @@
+
+import Image from "next/image";
+
+
+import Menus2 from "@/components/ui/Menus2";
+import Cart from "./navbar/dropdowncart";
+ 
+
+
+
+export default function Navbarser () {
+    return( 
+<>
+  {/* Navbar */}
+  <nav className="navbar navbar-expand-lg navbar-light bg-white flex-column border-0 {{ configClassList }} {{ classList }}">
+    <div className="container-fluid">
+      <div className="w-100">
+        <div className="d-flex justify-content-between align-items-center flex-wrap">
+          {/* Logo*/}
+          <a
+            className="navbar-brand fw-bold fs-3 m-0 p-0 flex-shrink-0 order-0"
+            href="{{webRoot}}/index.html"
+          >
+            {/*logo*/}
+          </a>
+          {/* / Logo*/}
+          {/* Navbar Icons*/}
+          <ul className="list-unstyled mb-0 d-flex align-items-center order-1 order-lg-2 nav-sidelinks">
+            {/* Mobile Nav Toggler*/}
+            <li className="d-lg-none">
+              <span
+                className="nav-link text-body d-flex align-items-center cursor-pointer"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i className="ri-menu-line ri-lg me-1" /> Menu
+              </span>
+            </li>
+            {/* /Mobile Nav Toggler*/}
+            {/* Navbar Search*/}
+            <li className="d-none d-sm-block">
+              <span className="nav-link text-body search-trigger cursor-pointer">
+                Search
+              </span>
+              {/* Search navbar overlay*/}
+              <div className="navbar-search d-none">
+                <div className="input-group mb-3 h-100">
+                  <span className="input-group-text px-4 bg-transparent border-0">
+                    <i className="ri-search-line ri-lg" />
+                  </span>
+                  <input
+                    type="text"
+                    className="form-control text-body bg-transparent border-0"
+                    placeholder="Enter your search terms..."
+                  />
+                  <span className="input-group-text px-4 cursor-pointer disable-child-pointer close-search bg-transparent border-0">
+                    <i className="ri-close-circle-line ri-lg" />
+                  </span>
+                </div>
+              </div>
+              <div className="search-overlay" />
+              {/* / Search navbar overlay*/}
+            </li>
+            {/* /Navbar Search*/}
+            {/* Navbar Login*/}
+            <li className="ms-1 d-none d-lg-inline-block">
+              <a className="nav-link text-body" href="">
+                Account
+              </a>
+            </li>
+            {/* /Navbar Login*/}
+            {/* Navbar Cart Icon*/}
+            <li className="ms-1 d-inline-block position-relative dropdown-cart">
+              <button
+                className="nav-link me-0 disable-child-pointer border-0 p-0 bg-transparent text-body"
+                type="button"
+              >
+                Bag (2)
+              </button>
+              <Cart/>
+            </li>
+            {/* /Navbar Cart Icon*/}
+          </ul>
+          {/* Navbar Icons*/}
+          {/* Main Navigation*/}
+          <Menus2/>
+          <div
+            className="flex-shrink-0  navbar-collapse-light w-auto flex-grow-1 order-2 order-lg-1"
+            id="navbarNavDropdown"
+          > 
+            {/* Menu*/}
+           
+            {/* / Menu*/}
+          </div>
+          {/* / Main Navigation*/}
+        </div>
+      </div>
+    </div>
+    
+  </nav>
+  {/* / Navbar*/}
+ 
+</>
+
+
+      ); 
+    
+ };

@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/navbar.jsx", "components/features.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/navbar.jsx", "components/features.jsx", "app/(default)/Landing/navbar.jsx"],
   "exclude": ["node_modules"]
 }
