@@ -1,4 +1,8 @@
-export default function Dropdownslinks () {
+import React from "react";
+import data from "@/public/data/category-products.json";
+
+
+const Droprtitem: React.FC = () => {
     return(
         <>
   <div className="row py-3 py-lg-0 flex-wrap gx-4 gy-6">
@@ -248,25 +252,23 @@ export default function Dropdownslinks () {
     {/* / menu row*/}
   </div>
   <div className="align-items-center justify-content-between mt-5 d-none d-lg-flex">
-    {"{"}
-    {"{"}#each (limit slideshow-brands.entries 6){"}"}
-    {"}"}
+    
     <div className="me-5 f-w-20">
-      <a className="d-block" href="{{webRoot}}/category.html">
+    {data.entries.map((brand, index) =>(
+      <a key={index} className="d-block" href="{{webRoot}}/category.html">
         <picture>
           <img
             className="img-fluid d-table mx-auto"
-            src="{{ img }}"
-            alt="{{ config.defaultImgAlt }}"
+            src={brand.img}
+            alt={`Logo ${index + 1}`}
           />
         </picture>
-      </a>
+      </a>  ))}
     </div>
-    {"{"}
-    {"{"}/each{"}"}
-    {"}"}
+    
   </div>
 </>
 
     );
   };
+  export default Droprtitem;

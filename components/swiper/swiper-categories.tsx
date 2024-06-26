@@ -38,7 +38,7 @@ const Heroswiper: React.FC = () => {
   }'>
   <div className="swiper-wrapper">
   {data.entries.map((brand, index) =>(
-      <div className="swiper-slide align-self-stretch bg-transparent h-auto">
+      <div key={index} className="swiper-slide align-self-stretch bg-transparent h-auto">
         <div className="me-xl-n4 me-xxl-n5" data-aos="fade-up" data-aos-delay="{{@index}}00">
             <picture className="d-block mb-4 img-clip-shape-one">
             <img

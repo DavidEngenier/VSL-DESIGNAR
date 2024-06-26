@@ -1,4 +1,10 @@
-export default function Instagramsw() {
+import React from 'react';
+import data from '@/public/data/slideshow-instagram.json';
+
+
+
+
+const Instagramsw :React.FC = () => {
     return(<>
         {/* Swiper Instagram */}
         {/*Slidershow instagram*/}
@@ -24,7 +30,7 @@ export default function Instagramsw() {
           },
           "600": {
             "slidesPerView": 3
-          },       
+          },
           "999": {
             "slidesPerView": 5
           },
@@ -35,21 +41,18 @@ export default function Instagramsw() {
       }'
             >
               <div className="swiper-wrapper mb-5">
-                {/* Start of instagram slideshow loop for items*/}
-                {/*Slidershow instagram.entries*/}
-                <div className="swiper-slide flex-column">
-                  <picture>
-                    <img
-                      className="rounded shadow-sm img-fluid"
-                      data-zoomable=""
-                      src="{{ img }}"
-                      title=""
-                      alt=""
-                    />
-                  </picture>
-                </div>
-                {/*Each*/}
-                {/* / end of items loop*/}
+              {data.entries.map((brand, index) =>(
+      <div key={index} className="swiper-slide flex-column">
+
+            <picture >
+            <img
+            className="rounded shadow-sm img-fluid"
+            src={brand.img}
+            alt={`Logo ${index + 1}`}
+          />
+            </picture>
+            </div>
+    ))}
               </div>
             </div>
           </div>
@@ -59,3 +62,6 @@ export default function Instagramsw() {
       </>
       );
   };
+
+
+  export default Instagramsw;

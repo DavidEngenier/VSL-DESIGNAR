@@ -3,13 +3,14 @@ import Image from "next/image";
 
 
 import Menus2 from "@/components/ui/Menus2";
-import Cart from "./navbar/dropdowncart";
- 
+
+import Dropdowncart from "../cart/cart-remove/cartdropdown";
+
 
 
 
 export default function Navbarser () {
-    return( 
+    return(
 <>
   {/* Navbar */}
   <nav className="navbar navbar-expand-lg navbar-light bg-white flex-column border-0 {{ configClassList }} {{ classList }}">
@@ -80,19 +81,19 @@ export default function Navbarser () {
               >
                 Bag (2)
               </button>
-              <Cart/>
+             <Dropdowncart/>
             </li>
             {/* /Navbar Cart Icon*/}
           </ul>
           {/* Navbar Icons*/}
           {/* Main Navigation*/}
-          <Menus2/>
+         
           <div
             className="flex-shrink-0  navbar-collapse-light w-auto flex-grow-1 order-2 order-lg-1"
             id="navbarNavDropdown"
           > 
             {/* Menu*/}
-           
+            <Menus2/>
             {/* / Menu*/}
           </div>
           {/* / Main Navigation*/}
