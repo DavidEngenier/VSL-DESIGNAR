@@ -1,5 +1,6 @@
 import "./css/style.css";
 
+
 import { Inter, Architects_Daughter } from "next/font/google";
 
 import Header from "@/components/ui/header";

@@ -24,7 +24,7 @@ export default function DefaultLayout({
       duration: 600,
       easing: "ease-out-sine",
     });
-    import("@/public/OLDS/js/theme.js");
+   
     // Clean up AOS on component unmount (optional)
     return () => {
       AOS.refresh(); // Refresh AOS on unmount

@@ -64,8 +64,7 @@ export default function Footer2() {
           </div>
         </div>
 
-        
-       
+
       </footer>);
       };
 

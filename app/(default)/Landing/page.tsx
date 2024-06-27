@@ -1,19 +1,53 @@
 
+"use client"
+import React, { useEffect } from 'react';
 import Navbarser from "@/components/ui/navbar";
 import Footer2 from "@/components/ui/footer2";
 import Menus2 from "@/components/ui/Menus2";
 
 import Dropdowncart from "@/components/cart/cart-remove/cartdropdown";
-
+import Head from 'next/head';
 import Heroswiper from "@/components/swiper/swiper-homepage-hero";
 import Logos from "@/components/marque/logo";
 import Categories from "@/components/swiper/swiper-categories";
 import Instagramsw from "@/components/swiper/instragram";
 
 
+const runScripts = () => {
+  import('@/public/OLDS/js/components/cart-dropdown.js').then(() => {
+    console.log('theme.js loaded'); // Puedes agregar más lógica aquí si es necesario
+  }).catch((err) => {
+    console.error('Error loading theme.js:', err);
+  });
+};
 
 
-export default function Home() {
+const Home: React.FC =()=> {
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(min-width: 768px)'); // Cambia el tamaño según tus necesidades
+
+    const handleResize = () => {
+      if (mediaQuery.matches) {
+        runScripts();
+      }
+    };
+
+    // Ejecutar al montar el componente
+    handleResize();
+
+    // Escuchar cambios de tamaño de pantalla
+    window.addEventListener('resize', handleResize);
+
+    // Limpiar el evento al desmontar el componente
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
+
+
   return (
     <>
     <div className="bg-white">
@@ -80,13 +114,14 @@ export default function Home() {
             {/* /Navbar Login*/}
             {/* Navbar Cart Icon*/}
             <li className="ms-1 d-inline-block position-relative dropdown-cart">
-              <button
-                className="nav-link me-0 disable-child-pointer border-0 p-0 bg-transparent text-body"
-                type="button"
-              >
+      <button
+        className="nav-link me-0 disable-child-pointer border-0 p-0 bg-transparent text-body"
+        type="button"
+      >
                 Bag (2)
               </button>
               <Dropdowncart/>
+              
             </li>
             {/* /Navbar Cart Icon*/}
           </ul>
@@ -97,7 +132,7 @@ export default function Home() {
             id="navbarNavDropdown"
           >
             {/* Menu*/}
-            <Menus2/>
+            
             {/* / Menu*/}
           </div>
           {/* / Main Navigation*/}
@@ -338,8 +373,12 @@ export default function Home() {
   {/* / Main Section*/}
   <Footer2/>
   {/* / Footer*/}\
+  
   {/* ##### Welcome Area Start ##### */}
   </div>
-</>
+  
+  </>
   );
-}
+};
+
+export default Home

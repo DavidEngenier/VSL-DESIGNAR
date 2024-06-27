@@ -23,30 +23,7 @@
             "large-title": "Jackets & Coats",
             "button-text": "Shop Now",
             "img": "/OLDS/images/categories/category-4.jpg"
-        },
-        {
-            "small-title": "Keep Warm",
-            "large-title": "Hats & Beanies",
-            "button-text": "Shop Now",
-            "img": "/OLDS/images/categories/category-5.jpg"
-        },
-        {
-            "small-title": "20% Off",
-            "large-title": "Summer Sale",
-            "button-text": "Shop Now",
-            "img": "/OLDS/images/categories/category-6.jpg"
-        },
-        {
-            "small-title": "Just Arrived",
-            "large-title": "Latest Kicks",
-            "button-text": "Shop Now",
-            "img": "/OLDS/images/categories/category-1.jpg"
-        },
-        {
-            "small-title": "Accessories",
-            "large-title": "Bags & Rugsacks",
-            "button-text": "Shop Now",
-            "img": "/OLDS/images/categories/category-8.jpg"
         }
+      
     ]
 }
