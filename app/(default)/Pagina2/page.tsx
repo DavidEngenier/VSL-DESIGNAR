@@ -5,6 +5,7 @@ import Features2 from "@/components/features4";
 import Camion from "@/components/Loader";
 import MySvgfe from "@/components/svgfe";
 import MySvgfeds from "@/components/svgfeds";
+import CustomIcon from "@/components/svgwatsap";
 
 const Home = () => {
   return (
@@ -45,9 +46,21 @@ const Home = () => {
             <span className="before:block  before:-inset-1 before:-skew-y-3 before:bg-blue-800 relative inline-block uppercase mr-6 mt-5 mb-5 ml-8  sm:r-5 mt-2 lg: mt-5 ml-5">
               <span className="relative text-white"> si estas dispuesto a invertir en tu negocio</span>
             </span>
+            
+            
+           <span className="before:block  before:-inset-1 before:-skew-y-3 before:bg-blue-800 relative inline-block uppercase mr-6 mt-5 mb-5 ml-8  sm:r-5 mt-2 lg: mt-5 ml-5">
+           
+           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+           <CustomIcon />
+           </div>
+              <span className="relative text-white"> Dale click al icono de watsapp</span>
+            </span>
+            
           </blockquote> 
-     
-      <Calendario/>
+
+          
+          
+      
 
 
       

@@ -1,23 +1,16 @@
 import React from "react";
-import data from "@/public/data/category-products.json";
 
-const Cart: React.FC = () =>{
+interface DropdownCardImageProps {
+  img: string;
+  title: string;
+}
+
+const Cart: React.FC<DropdownCardImageProps> = ({ img, title }) =>{
     return(
-    <div className="card justify-content-center d-flex align-items-center bg-transparent">
-        {data.entries.map((brand, index) =>(
-        <picture key={index} className="w-100 d-block mb-2 mx-auto">
-          <img
-            className="w-100 rounded"
-            title=""
-            src={brand.img}
-            alt={`Logo ${index + 1}`}
-          />
-        </picture>
-        ))}
-        <a className="fw-bolder link-cover" href="{{webRoot}}/category.html">
-          {/*titulo*/}
-        </a>
-      </div>
+      <div className="dropdown-card-image">
+      <img src={img} alt={title} className="img-fluid" />
+      <h3>{title}</h3>
+    </div>
       );
   };
   export default Cart;

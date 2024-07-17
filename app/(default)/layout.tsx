@@ -3,8 +3,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import "@/app/css/libs.bundle.css";
-import "@/app/css/theme.bundle.css";
+
 // Importing theme.js should be done carefully to avoid server-side rendering issues
 // Make sure it's imported conditionally or handled properly.
 
