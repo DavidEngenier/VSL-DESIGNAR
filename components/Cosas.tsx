@@ -4,7 +4,7 @@ export default function Cosas() {
       {" "}
       <div className="mw-full text-center pb-12 md:pb-16">
       <span
-                  className=" text-xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12 before:block before:absolute before:-inset-1.5 before:-skew-y-3 before:bg-blue-500"
+                  className=" text-xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12 before:block before:absolute before:-inset-1.5  before:bg-blue-500"
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
@@ -26,7 +26,7 @@ Los productos son personalizados para cada uno de nuestros clientes por lo que n
       {/** */}
       <div className="mw-full text-center pb-12 md:pb-16">
       <span
-                  className=" text-xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12 before:block before:absolute before:-inset-1.5 before:-skew-y-3 before:bg-blue-500"
+                  className=" text-xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12 before:block before:absolute before:-inset-1  before:bg-blue-500 relative inline-block"
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >

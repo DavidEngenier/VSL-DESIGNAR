@@ -40,21 +40,21 @@ const Home = () => {
 
 
    
-
-          <blockquote className="sm:text-xl md:text-2xl lg:text-3xl font-semibold text-center text-gray-200 mx-auto relative uppercase sm:pt-8 lg:pt-12">
-  Agenda solo
-  <span className="relative inline-block uppercase mx-5 my-2 before:block before:-inset-1 before:-skew-y-3 before:bg-blue-800">
-    <span className="relative text-white">
-      si estás dispuesto a invertir en tu negocio
+          <blockquote className="text-2xl font-semibold text-center text-gray-200 mx-auto relative uppercase pt-8">
+  <div className="flex flex-col items-center">
+    <span className="relative inline-block uppercase mx-5 my-2 before:block before:-inset-1 before:-skew-y-3 before:bg-blue-800">
+      <span className="relative text-white">
+        Agenda solo si estás dispuesto a invertir en tu negocio
+      </span>
     </span>
-  </span>
-  <span className="relative inline-block uppercase mx-5 my-2 before:block before:-inset-1 before:-skew-y-3 before:bg-blue-800">
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center mt-2">
       <CustomIcon />
+      <span className="relative text-white ml-2">Dale click al icono de WhatsApp</span>
     </div>
-    <span className="relative text-white">Dale click al icono de WhatsApp</span>
-  </span>
+  </div>
 </blockquote>
+
+
 
 
           

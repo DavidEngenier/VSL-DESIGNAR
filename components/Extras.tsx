@@ -8,7 +8,7 @@ export default function Extras() {
               <h2 className="text-xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12">
                 ¿BUSCAS
                 <span
-                  className="before:block before:absolute before:-inset-1.5 before:-skew-y-3 before:bg-blue-500 relative inline-block uppercase ml-5 "
+                  className="before:block before:absolute before:-inset-1.5 before:-skew-y-1 before:bg-blue-500 relative inline-block uppercase ml-5 "
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
