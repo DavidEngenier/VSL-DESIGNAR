@@ -3,9 +3,13 @@ export default function Cosas() {
     <section className="text-gray-200">
       {" "}
       <div className="mw-full text-center pb-12 md:pb-16">
-        <h1 className="h1 mb-4" data-aos="fade-up">
-          ¿Quienes somos?
-        </h1>
+      <span
+                  className=" text-xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <span className="relative text-white">¿Quienes somos?</span>
+                </span>
         <p
           className="text-3xl text-gray-200 mb-8 "
           data-aos="fade-up"
@@ -21,9 +25,13 @@ Los productos son personalizados para cada uno de nuestros clientes por lo que n
       </div>
       {/** */}
       <div className="mw-full text-center pb-12 md:pb-16">
-        <h1 className="h1 mb-4" data-aos="fade-up">
-          ¿Como vamos a ayudarte?
-        </h1>
+      <span
+                  className=" text-xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <span className="relative text-white">¿Como Podemos Ayudarte?</span>
+                </span>
         <p
           className="text-3xl text-gray-200 mb-8"
           data-aos="fade-up"

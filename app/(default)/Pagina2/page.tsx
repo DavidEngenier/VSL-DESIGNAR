@@ -41,22 +41,21 @@ const Home = () => {
 
    
 
-      <blockquote className=" sm:text-1xl md:text-2xl lg:text-3xl font-semibold text-center text-gray-200 mx-auto text-center relative uppercase  sm:pt-8 lg:pt-12">
-            Agenda solo 
-            <span className="before:block  before:-inset-1 before:-skew-y-3 before:bg-blue-800 relative inline-block uppercase mr-6 mt-5 mb-5 ml-8  sm:r-5 mt-2 lg: mt-5 ml-5">
-              <span className="relative text-white"> si estas dispuesto a invertir en tu negocio</span>
-            </span>
-            
-            
-           <span className="before:block  before:-inset-1 before:-skew-y-3 before:bg-blue-800 relative inline-block uppercase mr-6 mt-5 mb-5 ml-8  sm:r-5 mt-2 lg: mt-5 ml-5">
-           
-           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-           <CustomIcon />
-           </div>
-              <span className="relative text-white"> Dale click al icono de watsapp</span>
-            </span>
-            
-          </blockquote> 
+          <blockquote className="sm:text-xl md:text-2xl lg:text-3xl font-semibold text-center text-gray-200 mx-auto relative uppercase sm:pt-8 lg:pt-12">
+  Agenda solo
+  <span className="relative inline-block uppercase mx-5 my-2 before:block before:-inset-1 before:-skew-y-3 before:bg-blue-800">
+    <span className="relative text-white">
+      si estás dispuesto a invertir en tu negocio
+    </span>
+  </span>
+  <span className="relative inline-block uppercase mx-5 my-2 before:block before:-inset-1 before:-skew-y-3 before:bg-blue-800">
+    <div className="flex justify-center items-center">
+      <CustomIcon />
+    </div>
+    <span className="relative text-white">Dale click al icono de WhatsApp</span>
+  </span>
+</blockquote>
+
 
           
           
