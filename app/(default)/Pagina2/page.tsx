@@ -1,5 +1,6 @@
 
 import Calendario from "@/components/calendario";
+import Facebook from "@/components/facebook";
 import Features from "@/components/features3";
 import Features2 from "@/components/features4";
 import Camion from "@/components/Loader";
@@ -50,6 +51,8 @@ const Home = () => {
     <div className="flex justify-center items-center mt-2">
       <CustomIcon />
       <span className="relative text-white ml-2">Dale click al icono de WhatsApp</span>
+
+      <Facebook/>
     </div>
   </div>
 </blockquote>
