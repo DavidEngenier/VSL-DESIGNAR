@@ -6,7 +6,7 @@ import FacebookPixel from '../components/facebook';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <SessionProvider session={pageProps.session}>
-        <FacebookPixel />
+        
       <Component {...pageProps} />
     
     </SessionProvider>

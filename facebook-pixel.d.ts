@@ -5,7 +5,7 @@ interface FacebookPixel {
   queue?: any[];
   loaded?: boolean;
   version?: string;
-  push?: (action: string, ...args: any[]) => void; // Agrega push
+  push?: (action: string, ...args: any[]) => void;
 }
 
 interface Window {
