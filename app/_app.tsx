@@ -1,11 +1,14 @@
 // _app.tsx
 import { SessionProvider } from 'next-auth/react';
 import type { AppProps } from 'next/app';
+import FacebookPixel from '../components/facebook';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <SessionProvider session={pageProps.session}>
+        <FacebookPixel />
       <Component {...pageProps} />
+    
     </SessionProvider>
   );
 }
