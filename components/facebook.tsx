@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export default function Facebook() {
+export default function Facebookpixel() {
     return (
         <>
             <Head>

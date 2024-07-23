@@ -1,5 +1,6 @@
 
 import Calendario from "@/components/calendario";
+import Facebookpixel from "@/components/facebook";
 import Facebook from "@/components/facebook";
 import Features from "@/components/features3";
 import Features2 from "@/components/features4";
@@ -52,7 +53,7 @@ const Home = () => {
       <CustomIcon />
       <span className="relative text-white ml-2">Dale click al icono de WhatsApp</span>
 
-      <Facebook/>
+      <Facebookpixel/>
     </div>
   </div>
 </blockquote>
